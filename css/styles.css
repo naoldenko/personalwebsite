@@ -122,17 +122,63 @@ a:hover {
 	text-decoration: underline;
 }
 
-#twitter {
+#music {
 	color: navy;
 	text-decoration: none;
 }
 
-#twitter:visited {
+#music:visited {
 	color: navy;
 	text-decoration: none;
 }
 
-#twitter:hover {
+#music:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#everything {
+	color: navy;
+	text-decoration: none;
+}
+
+#everything:visited {
+	color: navy;
+	text-decoration: none;
+}
+
+#everything:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#poems {
+	color: navy;
+	text-decoration: none;
+}
+
+#poems:visited {
+	color: navy;
+	text-decoration: none;
+}
+
+#poems:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+
+#x {
+	color: navy;
+	text-decoration: none;
+}
+
+#x:visited {
+	color: navy;
+	text-decoration: none;
+}
+
+#x:hover {
 	color: black;
 	text-decoration: underline;
 }
