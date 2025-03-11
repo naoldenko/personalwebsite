@@ -167,6 +167,21 @@ a:hover {
 	text-decoration: underline;
 }
 
+#research {
+	color: navy;
+	text-decoration: none;
+}
+
+#research:visited {
+	color: navy;
+	text-decoration: none;
+}
+
+#research:hover {
+	color: black;
+	text-decoration: underline;
+}
+
 
 #x {
 	color: navy;
