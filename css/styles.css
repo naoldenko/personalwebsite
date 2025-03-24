@@ -1,15 +1,17 @@
 body {
-	background-color: #F5F5dc;
+	background-color:   #1E1E1E;
+	color: white;
 	font-family: 'Cormorant Garamond', serif;
 }
 
 a {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
+	color: #FA8072;
 }
 
 @media only screen and (max-width: 600px) {
@@ -78,195 +80,204 @@ a:hover {
 }
 
 .biz {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 .biz:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 .biz:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #linkedin {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #linkedin:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #linkedin:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #insta {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #insta:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #insta:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #music {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #music:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #music:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #everything {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #everything:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #everything:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #poems {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #poems:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #poems:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #research {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #research:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #research:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 
 #x {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #x:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #x:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #notes {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #notes:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #notes:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #code {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #code:visited {
-	color: navy;
+	color: white;
 	text-decoration: none;
 }
 
 #code:hover {
-	color: black;
+	color: #FA8072;
 	text-decoration: underline;
 }
 
 #title-one {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 #title-one:hover {
 	text-decoration: underline;
+	color: #FA8072 !important;
 }
 
 #title-one:visited {
-	color: black;
+	color: white;
 }
 
 #title-two {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 #title-two:hover {
 	text-decoration: underline;
+	color: #FA8072 !important;
 }
 
 #title-two:visited {
-	color: black;
+	color: white;
 }
 
 #link-one {
 	text-decoration: none;
-	color: navy;
+	color: white;
 }
 
 #link-one:hover {
-	color: black;
+	color: #FA8072 !important;
 	text-decoration: underline;
 }
 
 #link-one:visited {
 	text-decoration: none;
-	color: navy;
+	color: white;
+}
+
+/* Ensure links on poems and notes pages turn salmon pink on hover */
+.poems-page a:hover,
+.notes-page a:hover {
+	color: #FA8072 !important;
+	text-decoration: underline;
 }
 
 p, a{
