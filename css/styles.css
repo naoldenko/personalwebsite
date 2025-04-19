@@ -284,3 +284,34 @@ p, a{
 	font-weight: 500;
 	font-size: 20px;
 }
+
+/* Grade Images Layout */
+.grade-images {
+	margin: 20px 0;
+}
+
+.grade-images .top-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.grade-images .bottom-row {
+	display: flex;
+	justify-content: center;
+}
+
+.grade-images img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+	.grade-images .top-row {
+		flex-direction: column;
+	}
+	
+	.grade-images .top-row img {
+		margin-bottom: 15px;
+	}
+}
