@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Naol Denko - Autumn Breeze</title>
+	<link rel="stylesheet" type="text/css" href="../../css/styles.css">
+	<link rel="icon" type="image/x-icon" href="../../img/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-H7CWG9690N"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-H7CWG9690N');
+	</script>
+	<style>
+		.password-container {
+			text-align: center;
+			margin-top: 100px;
+		}
+		.password-input {
+			padding: 10px;
+			font-size: 16px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			margin-right: 10px;
+			font-family: 'Cormorant Garamond', serif;
+		}
+		.password-button {
+			padding: 10px 20px;
+			font-size: 16px;
+			background-color: #333;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-family: 'Cormorant Garamond', serif;
+		}
+		.password-button:hover {
+			background-color: #555;
+		}
+		.error-message {
+			color: #d32f2f;
+			margin-top: 10px;
+			font-style: italic;
+		}
+		.poem-content {
+			display: none;
+		}
+	</style>
+</head>
+
+<body class="poems-page">
+	<h3><a id="title-one" href="../../index.html">Naol Denko</a> — <a id="title-two" href="../../pages/poems.html">Poems</a>
+	</h3>
+	
+	<div id="password-section" class="password-container">
+		<h1>Autumn Breeze</h1>
+		<p>This page is password protected.</p>
+		<input type="password" id="password-input" class="password-input" placeholder="Enter password" onkeypress="handleKeyPress(event)">
+		<button onclick="checkPassword()" class="password-button">Enter</button>
+		<div id="error-message" class="error-message"></div>
+	</div>
+
+	<div id="poem-content" class="poem-content">
+		<div>
+			<p><a id="link-one" href="poem-1.html">Poem 1</a></p>
+			<p><a id="link-one" href="poem-2.html">Poem 2</a></p>
+			<p><a id="link-one" href="poem-3.html">Poem 3</a></p>
+			<p><a id="link-one" href="poem-4.html">Poem 4</a></p>
+			<p><a id="link-one" href="poem-5.html">Poem 5</a></p>
+			<p><a id="link-one" href="poem-6.html">Poem 6</a></p>
+			<p><a id="link-one" href="poem-7.html">Poem 7</a></p>
+			<p><a id="link-one" href="poem-8.html">Poem 8</a></p>
+			<p><a id="link-one" href="poem-9.html">Poem 9</a></p>
+			<p><a id="link-one" href="poem-10.html">Poem 10</a></p>
+			<p><a id="link-one" href="poem-11.html">Poem 11</a></p>
+			<p><a id="link-one" href="poem-12.html">Poem 12</a></p>
+			<p><a id="link-one" href="poem-13.html">Poem 13</a></p>
+			<p><a id="link-one" href="poem-14.html">Poem 14</a></p>
+			<p><a id="link-one" href="poem-15.html">Poem 15</a></p>
+			<p><a id="link-one" href="poem-16.html">Poem 16</a></p>
+			<p><a id="link-one" href="poem-17.html">Poem 17</a></p>
+			<p><a id="link-one" href="poem-18.html">Poem 18</a></p>
+			<p><a id="link-one" href="poem-19.html">Poem 19</a></p>
+			<p><a id="link-one" href="poem-20.html">Poem 20</a></p>
+			<p><a id="link-one" href="poem-21.html">Poem 21</a></p>
+			<p><a id="link-one" href="poem-22.html">Poem 22</a></p>
+		</div>
+	</div>
+
+	<script>
+		function checkPassword() {
+			const password = document.getElementById('password-input').value;
+			const correctPassword = 'Happy22ndbirthday';
+			const errorMessage = document.getElementById('error-message');
+			const passwordSection = document.getElementById('password-section');
+			const poemContent = document.getElementById('poem-content');
+
+			if (password === correctPassword) {
+				passwordSection.style.display = 'none';
+				poemContent.style.display = 'block';
+				errorMessage.textContent = '';
+			} else {
+				errorMessage.textContent = 'Incorrect password. Please try again.';
+				document.getElementById('password-input').value = '';
+			}
+		}
+
+		function handleKeyPress(event) {
+			if (event.key === 'Enter') {
+				checkPassword();
+			}
+		}
+	</script>
+</body>
+
+</html> 
